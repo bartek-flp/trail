@@ -1,0 +1,67 @@
+global-styling:
+  version: VERSION
+  css:
+    theme:
+      css/print.css: { media: print }
+      css/style.css: {}
+      css/old-style.css: {}
+
+global-js:
+  version: VERSION
+  js:
+    js/min/global.min.js: {}
+    js/min/header.min.js: {}
+
+# Libraries for the SCSS version
+dropbutton:
+  version: VERSION
+  css:
+    component:
+      css/libraries/dropbutton.css: { weight: -10 }
+file:
+  version: VERSION
+  css:
+    component:
+      css/libraries/file.css: { weight: -10 }
+maintenance_page:
+  version: VERSION
+  css:
+    theme:
+      css/libraries/maintenance.css: {}
+  dependencies:
+    - system/maintenance
+    - droopler_theme/global-styling
+slick:
+  version: 1.8.1
+  css:
+    theme:
+      /libraries/slick-carousel/slick/slick.css: {}
+      /libraries/slick-carousel/slick/slick-theme.css: {}
+  js:
+    /libraries/slick-carousel/slick/slick.min.js: {}
+    js/big_slider.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
+
+colorbox:
+  version: VERSION
+  js:
+    /libraries/colorbox/jquery.colorbox.js: {}
+    /libraries/colorbox/jquery.colorbox-min.js: {}
+  dependencies:
+    - core/jquery
+
+header-nav:
+  version: VERSION
+  js:
+    js/header.js: {}
+
+countdown:
+  version: VERSION
+  js:
+    /libraries/jquery-countdown/jquery.countdown.min.js: {}
+    js/counter.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery

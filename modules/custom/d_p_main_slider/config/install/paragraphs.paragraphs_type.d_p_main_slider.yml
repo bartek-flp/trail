@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: d_p_main_slider
+label: d_p_main_slider
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

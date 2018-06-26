@@ -1,0 +1,22 @@
+.view-guests {
+  width: 75%;
+  margin: 75px auto;
+      .views-row {
+        width: 33%;
+        display: inline-block;
+        text-align: center;
+        .views-field-field-guest-image {
+          margin: 5px 0 15px 0;
+          img {
+
+          }
+        }
+        .views-field-title {
+          text-transform: uppercase;
+        }
+        .views-field-field-guest-description {
+          text-transform: uppercase;
+          font-size: 14px;
+        }
+      }
+}

@@ -1,0 +1,61 @@
+/*
+Components main Slider
+
+Styleguide
+*/
+
+// Colour variables used in this paragraph
+$d-p-banner-text-color: $color-odysseus !default;
+$d-p-banner-background-overlay: $color-cassandra !default;
+$d-p-banner-subtitle-background: $color-odysseus !default;
+
+.paragraph--type--d-p-main-slider {
+  position: relative;
+}
+
+.slider-content {
+  .slider-images {
+    position: relative;
+    height: 820px;
+    text-align: center;
+    .field--name-field-d-main-slider-images {
+      margin: 0;
+    }
+    .field--type-image {
+     float: none;
+      img {
+        margin: 0 auto;
+      }
+    }
+  }
+  .slider-texts {
+    position: absolute;
+    bottom: 50%;
+    transform: translateY(50%);
+    right: 0;
+    left: 0;
+    text-align: center;
+
+    .btn {
+      margin-top: 70px;
+      a {
+        color: white;
+        text-decoration: none;
+      }
+    }
+
+    h2 {
+      //@include font-main-header-big;
+      color: white;
+    }
+    h3 {
+      //@include font-subtitle;
+      text-align: center;
+      color: white;
+      &:after {
+        //@include decoration-header-line-main-center;
+        background: $d-p-banner-subtitle-background;
+      }
+    }
+  }
+}

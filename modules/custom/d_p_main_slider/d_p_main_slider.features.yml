@@ -1,0 +1,8 @@
+required:
+  - core.entity_view_display.paragraph.d_p_main_slider.default
+  - paragraphs.paragraphs_type.d_p_main_slider
+  - field.field.paragraph.d_p_main_slider.field_d_main_slider_desc
+  - field.field.paragraph.d_p_main_slider.field_d_main_slider_images
+  - field.field.paragraph.d_p_main_slider.field_d_main_slider_link
+  - field.field.paragraph.d_p_main_slider.field_d_main_slider_text
+  - core.entity_form_display.paragraph.d_p_main_slider.default

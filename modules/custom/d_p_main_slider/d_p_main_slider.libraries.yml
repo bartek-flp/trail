@@ -1,0 +1,11 @@
+d_p_main_slider:
+  version: VERSION
+  js:
+    js/d_p_main_slider.js: {}
+  dependencies:
+    - droopler_theme/jquery-backstretch
+    - droopler_theme/slick
+    - core/jquery
+    - core/jquery.once
+    - core/drupal
+

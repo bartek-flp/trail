@@ -1,0 +1,25 @@
+@keyframes progress-bar-stripes {
+  from {
+    background-position: 1rem 0;
+  }
+
+  to {
+    background-position: 0 0;
+  }
+}
+
+@font-face {
+  font-family: 'fontello';
+  src: url("/profiles/contrib/droopler/themes/custom/droopler_theme/fonts/fontello/fontello.eot");
+  /* IE9 Compat Modes */
+  src: url("/profiles/contrib/droopler/themes/custom/droopler_theme/fonts/fontello/fontello.eot?#iefix") format("embedded-opentype"), url("/profiles/contrib/droopler/themes/custom/droopler_theme/fonts/fontello/fontello.woff2") format("woff2"), url("/profiles/contrib/droopler/themes/custom/droopler_theme/fonts/fontello/fontello.woff") format("woff"), url("/profiles/contrib/droopler/themes/custom/droopler_theme/fonts/fontello/fontello.ttf") format("truetype"), url("/profiles/contrib/droopler/themes/custom/droopler_theme/fonts/fontello/fontello.svg#svgFontName") format("svg");
+  /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url("/libraries/lato-webfont/fonts/lato-regular.eot");
+  src: url("/libraries/lato-webfont/fonts/lato-regular.eot?#iefix") format("embedded-opentype"), url("/libraries/lato-webfont/fonts/lato-regular.woff2") format("woff2"), url("/libraries/lato-webfont/fonts/lato-regular.woff") format("woff"), url("/libraries/lato-webfont/fonts/lato-regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}

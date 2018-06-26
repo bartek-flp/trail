@@ -1,0 +1,35 @@
+.sticky-information {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background: $white;
+  padding: 5px 0;
+  font-family: Tahoma, sans-serif;
+  @include media-breakpoint-down(lg) {
+    position: relative;
+  }
+  .images {
+    padding-bottom: 30px;
+    .image {
+      width: 33%;
+      float: left;
+      text-align: center;
+      @include media-breakpoint-down(md) {
+        width: 100%;
+        float: none;
+        margin-bottom: 15px;
+
+      }
+    }
+  }
+  .text {
+    p {
+      text-align: center;
+      font-size: 12px;
+      margin: 0;
+      &.top {
+        margin-bottom: 15px;
+      }
+    }
+  }
+}

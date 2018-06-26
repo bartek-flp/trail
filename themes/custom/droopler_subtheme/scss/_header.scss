@@ -1,0 +1,157 @@
+// Header.
+//
+// Styleguide 3.2
+
+header {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1920px;
+  left: 0;
+  right: 0;
+
+  transition: .7s all;
+  -moz-transition: .7s all;
+  -webkit-transition: .7s all;
+  -o-transition: .7s all;
+
+  .site-logo img {
+    max-width: 100%;
+    max-height: 85px;
+  }
+  .region-primary-menu {
+    .navbar {
+      padding: 0.5rem 0;
+    }
+    #block-mainnavigation, #block-languageswitcher {
+      display: inline-block;
+      @include media-breakpoint-down(md) {
+        display: block;
+      }
+    }
+  }
+  .navbar-brand {
+    max-width: 320px;
+  }
+  @include media-breakpoint-down(lg) {
+    .navbar-brand {
+      width: 150px;
+    }
+
+  }
+  @include media-breakpoint-down(md) {
+    .navbar-brand {
+      width: 230px;
+      max-height: 73px;
+      top: 0;
+      z-index: 1;
+      max-width: 200px;
+      padding-left: 15px;
+    }
+    min-height: 50px;
+    .navbar {
+      width: 100%;
+      padding: 0;
+    }
+    .navbar-brand {
+      .site-logo img {
+        max-width: 100%;
+        width: auto;
+        height: 100%;
+        max-height: 67px;
+      }
+    }
+  }
+
+  &.menu-relative,
+  &.menu-fixed {
+    position: fixed;
+    background: rgba(0,0,0,0.2);
+    z-index: 1;
+    .navbar-nav {
+      .nav-item {
+        a {
+          color: white;
+          font-size: 23px;
+        }
+      }
+    }
+  }
+  &.menu-relative {
+    position: fixed;
+    background: rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  &.large {
+    height: 133px;
+    background: rgba(0,0,0,0.2);
+    .navbar-nav {
+      .nav-item {
+        a {
+          color: white;
+          font-size: 23px;
+        }
+        a:hover {
+          color: white !important;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  &.small{
+    height: 130px;
+    background: #FFF;
+    border-bottom: 1px solid #000;
+    .navbar-nav {
+      .nav-item {
+        a {
+          color: black;
+          font-size: 23px;
+        }
+        a:hover {
+          color: black !important;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  .navbar-nav {
+    .nav-item {
+      a {
+        color: white;
+        font-size: 23px;
+
+        &.small {
+          font-size: 20px
+        }
+        &.large {
+          font-size: 23px
+        }
+      }
+      a:hover {
+        color: white !important;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .container {
+    &.large {
+      height: 133px;
+    }
+    &.small {
+      height: 75px;
+    }
+  }
+}
+
+#block-icons {
+  .content {
+    float: right;
+  }
+}
+.block-language.dropdown {
+  .dropdown-toggle {
+    color: white;
+  }
+}

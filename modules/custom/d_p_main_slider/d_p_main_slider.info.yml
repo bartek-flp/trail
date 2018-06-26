@@ -1,0 +1,10 @@
+name: d_p_main_slider
+type: module
+core: 8.x
+dependencies:
+  - field
+  - image
+  - link
+  - paragraphs
+  - text
+version: 8.x-1.0-beta1

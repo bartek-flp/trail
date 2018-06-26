@@ -1,0 +1,26 @@
+.d-p-side-image-banner {
+  h2 {
+    margin-top: 40px;
+  }
+}
+.d-p-text-with-bckg {
+  background: black;
+}
+.d-p-banner {
+  .content-wrapper {
+    width: 100%;
+    padding-top: 13.5%;
+    padding-bottom: 14.5%;
+  }
+}
+
+.d-p-text-with-bckg {
+  h2 {
+    color: $color-hector;
+  }
+  .backstretch-item {
+    img {
+      opacity: 0.5;
+    }
+  }
+}
