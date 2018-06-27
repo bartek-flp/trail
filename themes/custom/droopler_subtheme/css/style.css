@@ -13432,7 +13432,6 @@ footer .region-footer-main .block {
 }
 
 .view-sponsors .views-row {
-  width: 20%;
   display: inline-block;
   text-align: center;
 }
@@ -13666,6 +13665,16 @@ header .container.large, header .large.alert, header .large.footer-droopler {
 
 header .container.small, header .small.alert, header .small.footer-droopler {
   height: 75px;
+}
+
+header nav ul.navbar-nav li.dropdown-item ul.dropdown-menu {
+  margin-top: 0;
+  margin-left: 0;
+}
+
+header nav ul.navbar-nav li.dropdown-item ul.dropdown-menu li.dropdown-item ul.dropdown-menu {
+  position: absolute;
+  top: -2px;
 }
 
 #block-icons .content {

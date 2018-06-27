@@ -143,6 +143,23 @@ header {
       height: 75px;
     }
   }
+
+  nav {
+    ul.navbar-nav {
+      li.dropdown-item {
+        ul.dropdown-menu {
+          margin-top: 0;
+          margin-left: 0;
+          li.dropdown-item {
+            ul.dropdown-menu {
+              position: absolute;
+              top: -2px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 #block-icons {

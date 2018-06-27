@@ -12,10 +12,24 @@
           + '<div class="item">%S <div class="desc">sekund</div></div>'));
       });
 
-      // $('#clock').countdown('2020/10/10', function(event) {
-      //   $(this).html(event.strftime('%D days %H:%M:%S'));
-      // });
 
+
+    }
+  };
+
+  Drupal.behaviors.menuSubmenu = {
+    attach: function (context, settings) {
+
+      var $windowWidth = $(window).width();
+      var $link = $('header .nav-item ul.dropdown-menu li.dropdown-item');
+
+      if ($windowWidth > 1023) {
+        $link.mouseover(function () {
+          var $width = $(this).find('ul.dropdown-menu').width();
+          $(this).find('ul.dropdown-menu').css('top', '0');
+          $(this).find('ul.dropdown-menu').css('left', -$width);
+        });
+      }
 
     }
   };

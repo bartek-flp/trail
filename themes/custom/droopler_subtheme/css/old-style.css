@@ -421,12 +421,6 @@ header .container.small, header .small.alert, header .small.footer-droopler {
     height: 120px;
   }
 }
-
-header .dropdown-menu li.dropdown ul.dropdown-menu {
-  margin-left: -159px;
-  margin-top: -47px;
-}
-
 @media (min-width: 1401px) and (max-width: 1800px) {
   header nav.navbar nav.navbar {
     width: 73%;
