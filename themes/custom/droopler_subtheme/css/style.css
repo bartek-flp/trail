@@ -13601,7 +13601,7 @@ header.menu-relative, header.menu-fixed {
 
 header.menu-relative .navbar-nav .nav-item a, header.menu-fixed .navbar-nav .nav-item a {
   color: white;
-  font-size: 23px;
+  font-size: 21px;
 }
 
 header.menu-relative {
@@ -13785,6 +13785,15 @@ header nav ul.navbar-nav li.dropdown-item ul.dropdown-menu li.dropdown-item ul.d
 
 .path-node .main-content {
   margin-top: 200px;
+}
+
+@media (min-width: 992px) {
+  .main-menu.navbar-nav .menu-item--expanded {
+    padding-right: 1rem;
+  }
+  .main-menu.navbar-nav .menu-item--expanded .menu-dropdown-icon {
+    width: 12px;
+  }
 }
 
 /*# sourceMappingURL=maps/style.css.map */

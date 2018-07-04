@@ -1,0 +1,10 @@
+@media (min-width: 992px) {
+  .main-menu.navbar-nav {
+    .menu-item--expanded {
+      padding-right: 1rem;
+      .menu-dropdown-icon {
+        width: 12px;
+      }
+    }
+  }
+}
