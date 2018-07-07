@@ -13693,6 +13693,10 @@ header nav ul.navbar-nav li.dropdown-item ul.dropdown-menu li.dropdown-item ul.d
   background: black;
 }
 
+.d-p-text-with-bckg .content {
+  color: white;
+}
+
 .d-p-banner .content-wrapper {
   width: 100%;
   padding-top: 13.5%;
@@ -13783,8 +13787,26 @@ header nav ul.navbar-nav li.dropdown-item ul.dropdown-menu li.dropdown-item ul.d
   }
 }
 
+body {
+  font-family: "Lato", sans-serif !important;
+}
+
 .path-node .main-content {
-  margin-top: 200px;
+  margin-top: 150px;
+}
+
+.page-node-34 .main-content,
+.page-node-5 .main-content {
+  margin-top: 0;
+}
+
+.buy-button img {
+  position: absolute;
+  right: 200px;
+  top: 290px;
+  z-index: 999;
+  width: auto;
+  height: auto;
 }
 
 @media (min-width: 992px) {

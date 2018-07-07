@@ -1,5 +1,24 @@
+body {
+  font-family: "Lato", sans-serif !important;
+}
 .path-node {
   .main-content {
-    margin-top: 200px;
+    margin-top: 150px;
+  }
+}
+.page-node-34,
+.page-node-5 {
+  .main-content {
+    margin-top: 0;
+  }
+}
+.buy-button {
+  img {
+    position: absolute;
+    right: 200px;
+    top: 290px;
+    z-index: 999;
+    width: auto;
+    height: auto;
   }
 }

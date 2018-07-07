@@ -5,7 +5,11 @@
 }
 .d-p-text-with-bckg {
   background: black;
+  .content {
+    color: white;
+  }
 }
+
 .d-p-banner {
   .content-wrapper {
     width: 100%;
