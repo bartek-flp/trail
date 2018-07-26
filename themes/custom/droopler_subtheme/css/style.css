@@ -13685,6 +13685,10 @@ header nav ul.navbar-nav li.dropdown-item ul.dropdown-menu li.dropdown-item ul.d
   color: white;
 }
 
+ul li ul li a.buy-button {
+  display: none;
+}
+
 .d-p-side-image-banner h2 {
   margin-top: 40px;
 }
@@ -13801,9 +13805,9 @@ body {
 }
 
 .buy-button img {
-  position: absolute;
-  right: 200px;
-  top: 290px;
+  position: relative;
+  right: -15px;
+  top: 15px;
   z-index: 999;
   width: auto;
   height: auto;

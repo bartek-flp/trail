@@ -172,3 +172,15 @@ header {
     color: white;
   }
 }
+
+ul {
+  li {
+    ul {
+      li {
+        a.buy-button {
+          display: none;
+        }
+      }
+    }
+  }
+}
