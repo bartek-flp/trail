@@ -13739,7 +13739,7 @@ header nav ul.navbar-nav li.dropdown-item ul.dropdown-menu li.dropdown-item ul.d
 }
 
 .sticky-information {
-  position: fixed;
+  position: relative;
   width: 100%;
   bottom: 0;
   background: #fff;
@@ -13783,7 +13783,7 @@ header nav ul.navbar-nav li.dropdown-item ul.dropdown-menu li.dropdown-item ul.d
 
 @media (min-width: 992px) {
   .site-footer {
-    margin-bottom: 180px;
+    margin-bottom: -30px;
   }
 }
 
