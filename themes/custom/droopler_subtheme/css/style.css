@@ -13408,6 +13408,7 @@ footer .region-footer-main .block {
   width: 33%;
   display: inline-block;
   text-align: center;
+  margin: 0 0 40px 0;
 }
 
 .view-guests .views-row .views-field-field-guest-image {
@@ -13689,6 +13690,10 @@ ul li ul li a.buy-button {
   display: none;
 }
 
+ul li ul li ul li a.buy-button {
+  display: none !important;
+}
+
 .d-p-side-image-banner h2 {
   margin-top: 40px;
 }
@@ -13820,6 +13825,18 @@ body {
   .main-menu.navbar-nav .menu-item--expanded .menu-dropdown-icon {
     width: 12px;
   }
+}
+
+.node--type-guest .node__content .field--name-field-guest-description {
+  text-align: center;
+  text-align: center;
+  font-size: 30px;
+  margin: 30px 0;
+}
+
+.node--type-guest .node__content .field--name-field-guest-image {
+  float: none;
+  text-align: center;
 }
 
 /*# sourceMappingURL=maps/style.css.map */

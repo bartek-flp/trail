@@ -180,6 +180,13 @@ ul {
         a.buy-button {
           display: none;
         }
+        ul {
+          li {
+            a.buy-button {
+              display: none !important;
+            }
+          }
+        }
       }
     }
   }
