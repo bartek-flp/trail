@@ -6,6 +6,9 @@
         display: inline-block;
         text-align: center;
         margin: 0 0 40px 0;
+        @include media-breakpoint-down(md) {
+          width: 100%;
+        }
         .views-field-field-guest-image {
           margin: 5px 0 15px 0;
           img {

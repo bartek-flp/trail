@@ -13411,6 +13411,12 @@ footer .region-footer-main .block {
   margin: 0 0 40px 0;
 }
 
+@media (max-width: 991px) {
+  .view-guests .views-row {
+    width: 100%;
+  }
+}
+
 .view-guests .views-row .views-field-field-guest-image {
   margin: 5px 0 15px 0;
 }
