@@ -13430,6 +13430,10 @@ footer .region-footer-main .block {
   font-size: 14px;
 }
 
+.block-views-blockguests-block-1 h2 {
+  margin: 50px 0 0 0;
+}
+
 .view-sponsors {
   width: 75%;
   margin: 0 auto;
