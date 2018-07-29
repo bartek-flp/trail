@@ -13814,6 +13814,7 @@ body {
   font-family: "Lato", sans-serif !important;
 }
 
+.path-partners .main-content,
 .path-node .main-content {
   margin-top: 150px;
 }
@@ -13850,6 +13851,19 @@ body {
 
 .node--type-guest .node__content .field--name-field-guest-image {
   float: none;
+  text-align: center;
+}
+
+.view-partners h3 {
+  display: inline-block;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.view-partners .views-row {
+  width: 33%;
+  float: left;
+  margin: 0 0 20px 0;
   text-align: center;
 }
 
