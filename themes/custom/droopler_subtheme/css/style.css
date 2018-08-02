@@ -13816,7 +13816,7 @@ body {
 
 .path-partners .main-content,
 .path-node .main-content {
-  margin-top: 150px;
+  margin-top: 200px;
 }
 
 .page-node-34 .main-content,
@@ -13865,6 +13865,18 @@ body {
   float: left;
   margin: 0 0 20px 0;
   text-align: center;
+}
+
+.view-program {
+  margin-bottom: 50px;
+}
+
+.view-program .view-content .views-row {
+  margin-bottom: 50px;
+}
+
+.view-program .view-content h3 {
+  text-transform: uppercase;
 }
 
 /*# sourceMappingURL=maps/style.css.map */
