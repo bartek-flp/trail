@@ -2,11 +2,47 @@
   margin-bottom: 50px;
   .view-content {
     .views-row {
-      margin-bottom: 50px;
+      padding: 15px 0px;
+      border-bottom: 1px solid lightgrey;
+      .views-field-nothing {
+        .item {
+          span {
+
+          }
+          .date {
+            font-weight: bold;
+            margin-right: 25px;
+          }
+          .title {
+            font-size: 24px;
+            padding: 0 20px;
+          }
+          .link {
+            float: right;
+            border: 1px solid grey;
+            border-radius: 40px;
+            a {
+              display: block;
+              color: $black;
+              text-align: center;
+              padding: 10px 25px;
+              &:hover {
+                text-decoration: none;
+              }
+            }
+          }
+        }
+      }
     }
 
     h3 {
       text-transform: uppercase;
+    }
+  }
+  .view-header {
+    .days {
+      text-align: center;
+      margin-bottom: 40px;
     }
   }
 }

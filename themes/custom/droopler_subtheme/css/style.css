@@ -13814,6 +13814,7 @@ body {
   font-family: "Lato", sans-serif !important;
 }
 
+.path-program .main-content,
 .path-partners .main-content,
 .path-node .main-content {
   margin-top: 200px;
@@ -13872,11 +13873,44 @@ body {
 }
 
 .view-program .view-content .views-row {
-  margin-bottom: 50px;
+  padding: 15px 0px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.view-program .view-content .views-row .views-field-nothing .item .date {
+  font-weight: bold;
+  margin-right: 25px;
+}
+
+.view-program .view-content .views-row .views-field-nothing .item .title {
+  font-size: 24px;
+  padding: 0 20px;
+}
+
+.view-program .view-content .views-row .views-field-nothing .item .link {
+  float: right;
+  border: 1px solid grey;
+  border-radius: 40px;
+}
+
+.view-program .view-content .views-row .views-field-nothing .item .link a {
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 10px 25px;
+}
+
+.view-program .view-content .views-row .views-field-nothing .item .link a:hover {
+  text-decoration: none;
 }
 
 .view-program .view-content h3 {
   text-transform: uppercase;
+}
+
+.view-program .view-header .days {
+  text-align: center;
+  margin-bottom: 40px;
 }
 
 /*# sourceMappingURL=maps/style.css.map */
