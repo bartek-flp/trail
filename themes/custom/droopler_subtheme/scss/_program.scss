@@ -7,20 +7,37 @@
       .views-field-nothing {
         .item {
           span {
-
+            @media (max-width: 767px) {
+              display: block;
+              padding: 10px 0;
+              margin: 0 auto;
+              text-align: center;
+            }
           }
           .date {
             font-weight: bold;
             margin-right: 25px;
+            @media (max-width: 767px) {
+              margin-right: 0;
+            }
           }
           .title {
             font-size: 24px;
             padding: 0 20px;
+            @media (max-width: 767px) {
+              font-size: 16px;
+              margin-bottom: 5px;
+            }
           }
           .link {
             float: right;
             border: 1px solid grey;
             border-radius: 40px;
+            @media (max-width: 767px) {
+              width: 230px;
+              display: block;
+              float: none;
+            }
             a {
               display: block;
               color: $black;
