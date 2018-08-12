@@ -13858,14 +13858,43 @@ body {
 .view-partners h3 {
   display: inline-block;
   width: 100%;
-  margin: 20px 0;
+  margin: 50px 0 10px 0;
+  text-transform: uppercase;
 }
 
 .view-partners .views-row {
-  width: 33%;
+  height: 130px;
+  position: relative;
+  width: 20%;
   float: left;
-  margin: 0 0 20px 0;
+  margin: 0;
   text-align: center;
+  border-bottom: 1px solid lightgrey;
+  border-right: 1px solid lightgrey;
+}
+
+.view-partners .views-row .views-field-nothing {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.view-partners .views-row .views-field-nothing img {
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.view-partners .views-row .views-field-nothing img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.view-partners .views-row:nth-child(5n+1) {
+  border-right: none !important;
 }
 
 .view-program {
