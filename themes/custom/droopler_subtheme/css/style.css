@@ -13910,23 +13910,8 @@ body {
 }
 
 @media (max-width: 991px) {
-  .view-partners .views-row:nth-child(3n+1) {
-    border-right: none;
-  }
-  .view-partners .views-row:nth-child(5n+1) {
-    border-right: 1px solid lightgrey;
-  }
-}
-
-@media (max-width: 575px) {
   .view-partners .views-row {
     border-bottom: 1px solid lightgrey;
-    border-right: none;
-  }
-  .view-partners .views-row:nth-child(3n+1) {
-    border-right: none;
-  }
-  .view-partners .views-row:nth-child(5n+1) {
     border-right: none;
   }
 }

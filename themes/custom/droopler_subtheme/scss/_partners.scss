@@ -39,22 +39,24 @@
       border-right: none;
     }
     @include media-breakpoint-down(md) {
-      &:nth-child(3n+1) {
-        border-right: none;
-      }
-      &:nth-child(5n+1) {
-        border-right: 1px solid lightgrey;
-      }
-    }
-    @include media-breakpoint-down(xs) {
       border-bottom: 1px solid lightgrey;
       border-right: none;
-      &:nth-child(3n+1) {
-        border-right: none;
-      }
-      &:nth-child(5n+1) {
-        border-right: none;
-      }
+      //&:nth-child(3n+1) {
+      //  border-right: none;
+      //}
+      //&:nth-child(5n+1) {
+      //  border-right: 1px solid lightgrey;
+      //}
     }
+    //@include media-breakpoint-down(xs) {
+    //  border-bottom: 1px solid lightgrey;
+    //  border-right: none;
+    //  &:nth-child(3n+1) {
+    //    border-right: none;
+    //  }
+    //  &:nth-child(5n+1) {
+    //    border-right: none;
+    //  }
+    //}
   }
 }
