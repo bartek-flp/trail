@@ -13985,4 +13985,9 @@ body {
   margin-bottom: 40px;
 }
 
+.paragraph--type--banner-small .d-p-banner.small .content-wrapper {
+  padding-top: 130px;
+  padding-bottom: 75px;
+}
+
 /*# sourceMappingURL=maps/style.css.map */
