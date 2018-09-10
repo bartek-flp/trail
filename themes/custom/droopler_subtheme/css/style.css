@@ -13839,6 +13839,10 @@ body {
   height: auto;
 }
 
+.webform-submission-form {
+  margin-bottom: 50px;
+}
+
 @media (min-width: 992px) {
   .main-menu.navbar-nav .menu-item--expanded {
     padding-right: 1rem;
