@@ -4,7 +4,7 @@
   Drupal.behaviors.countdown = {
     attach: function (context, settings) {
 
-      $('#clock').countdown('2018/10/24', function(event) {
+      $('#clock').countdown('2018/10/26', function(event) {
         var $this = $(this).html(event.strftime(''
           + '<div class="item">%D <div class="desc">dni</div></div> '
           + '<div class="item">%-H <div class="desc">godzin</div></div> '
